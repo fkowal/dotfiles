@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # up to you (me) if you want to run this as a file or copy paste at your leisure
 
 
@@ -53,7 +54,11 @@ git clone git://github.com/jeroenbegyn/VLCControl.git
 
 # for the c alias (syntax highlighted cat)
 sudo easy_install Pygments
-
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+brew install direnv
+brew install autojump
+brew install fzf
 
 # chrome canary as default
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
